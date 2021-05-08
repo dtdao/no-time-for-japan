@@ -1,5 +1,4 @@
-// Initialize button with user's preferred color
-let changeColor = document.getElementById("remove");
+let removeAd = document.getElementById("remove");
 
 const remove = async () => {
   let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
@@ -20,4 +19,4 @@ const handleRemove = () => {
   }
 };
 
-changeColor.addEventListener("click", remove);
+removeAd.addEventListener("click", remove);
