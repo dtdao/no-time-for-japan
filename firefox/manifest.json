@@ -14,11 +14,5 @@
     "default_icon": "icons/32.png",
     "default_title": "NoTimeForJapan",
     "default_popup": "popup/popup.html"
-  },
-  "content_scripts": [
-    {
-      "matches": ["*://*.japantimes.co.jp/*"],
-      "js": ["popup.js"]
-    }
-  ]
+  }
 }
